@@ -118,10 +118,10 @@ header .navbar-brand img {
     background: #f6f4f3;
 }
 .bg-gradient-orange-transparent {
-    background: linear-gradient(to right, rgba(233, 117, 34, 1.0) 10%, rgba(255, 255, 255, 0.0) 95%);
+    background-color: rgba(233, 117, 34, 1.0);
 }
 .bg-gradient-blue-transparent {
-    background: linear-gradient(to right, rgba(30, 163, 177, 1.0) 10%, rgba(255, 255, 255, 0.0) 95%);
+    background-color: rgba(30, 163, 177, 1.0);
 }
 /* blog only text */
 .blog-only-text .card-body:after {
