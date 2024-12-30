@@ -144,7 +144,18 @@
                                     <textarea class="ps-0 border-radius-0px border-bottom border-color-extra-medium-gray form-control" name="comment" placeholder="Your message" rows="3"></textarea>
                                     <span class="form-icon"><i class="bi bi-chat-square-dots icon-extra-medium text-dark-gray"></i></span>
                                     <input type="hidden" name="redirect" value="">
-                                    <button class="btn btn-medium btn-dark-gray btn-round-edge btn-box-shadow mb-20px mt-25px submit w-100 left-icon" type="submit"><i class="fa-regular fa-envelope"></i>Send a message</button>
+                                    <button
+                                        class="btn btn-medium btn-dark-gray btn-round-edge btn-box-shadow mb-20px mt-25px submit w-100 left-icon"
+                                        type="button"
+                                        onclick="sendEmail()">
+                                        <i class="fa-regular fa-envelope"></i>Send a message
+                                    </button>
+
+                                    <script>
+                                        function sendEmail() {
+                                            window.location.href = "mailto:info@domain.com";
+                                        }
+                                    </script>
                                     <p class="fs-14 lh-24 w-100 mb-25px text-center">We are committed to protect your privacy. We will never collect information about you without your explicit consent.</p>
                                     <div class="form-results mt-20px d-none"></div>
                                 </div>
